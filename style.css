@@ -1,3 +1,7 @@
+html { 
+    height:100%; 
+}
+
 body {
     position: relative;
     background-color: rgb(223, 202, 202);
