@@ -1,0 +1,287 @@
+body {
+    position: relative;
+    background-color: rgb(223, 202, 202);
+    left: 220px;
+    width: 1250px; 
+}
+
+h2 {
+    
+    color: black;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.work {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav {
+    height: 700px; 
+    width: 200px;
+    position: fixed; 
+    padding-top: 20px; 
+    left: 0px; 
+    top: 120px;
+    background-color: rgb(255, 255, 255);
+    z-index: -100; 
+}
+
+.sidenav a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 15px; 
+    width: 0px; 
+    transition: width 0.75s; 
+    transition-timing-function: linear;
+}
+
+.sidenav a:hover {
+    background-color: royalblue;
+    color: white; 
+    width: 170px; 
+  }
+
+.name h1 {
+    position: fixed;  
+    font-family: Arial, Helvetica, sans-serif; 
+    left: 0px; 
+    top: -35px; 
+    padding: 30px 10px 10px 10px; 
+    background-color: white;
+    text-align: right; 
+    font-size: 40px; 
+    z-index: 15; 
+}
+
+.divider {
+    position: fixed; 
+    left: 200px;  
+    top: 0px; 
+    height: 770px; 
+    width: 10px; 
+    background-color: black;  
+    z-index: 100; 
+}
+
+.objective h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 0px 0px 100px 100px;
+    word-wrap: break-word;
+}
+
+.objective img {
+    position: relative; 
+    top: -25px; 
+    padding: 30px;  
+    float:right; 
+}
+
+.objective h2 {
+    position: relative; 
+    padding: 0px 0px 0px 100px;
+
+}
+
+.education h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 500px;
+    padding: 0px 0px 0px 100px;
+    word-wrap: break-word;
+    font-size: 40px; 
+}
+
+.education h2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 500px;
+    word-wrap: break-word;
+    padding-left: 100px; 
+}
+
+.education h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;  
+    word-wrap: break-word;
+    padding: 0px 0px 100px 100px;
+    float: left; 
+}
+
+.vline {
+    position: relative; 
+    top: -170px; 
+    border-left: 1px solid black; 
+    height: 325px; 
+    padding-right: 60px; 
+    float:left;
+}
+
+.education .list {
+    position: relative; 
+    top: -100px; 
+    float:left; 
+}
+
+.work {
+    padding: 0px 0px 100px 100px; 
+    clear: left; 
+}
+
+.work .vline {
+    top: -220px; 
+    left: 500px; 
+    height: 225px; 
+}
+
+.work .description {
+    position: relative; 
+    top: -200px; 
+    left: 25px; 
+    float: right; 
+}
+
+.vdescription {
+    position: relative; 
+    top: -200px; 
+    left: -40px; 
+    float: right; 
+}
+
+.skills {
+    clear:left; 
+    width: 900px;  
+    position: relative; 
+    padding: 0px 0px 0px 100px; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.skills .other {
+    position: relative; 
+    top: -480px; 
+    left: 560px; 
+    width: 90%;
+    padding: 0px 100px 0px 0px; 
+    float:left; 
+}
+
+.skills h2 {
+    padding-bottom: 20px; 
+}
+
+.bar {
+    width: 40%; 
+    background-color: grey; 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px; 
+}
+
+.bar-1 h5 {
+    text-align: right;
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    background-color: red;
+    border-radius: 5px; 
+}
+
+.bar-2 h5{
+    text-align: right;
+    width: 40%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    background-color: red;
+    border-radius: 5px 0px 0px 5px; 
+}
+
+.bar-3 h5 {
+    text-align: right;
+    width: 80%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    background-color: red;
+    border-radius: 5px 0px 0px 5px; 
+}
+
+.bar-4 h5 {
+    text-align: right;
+    width: 70%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    background-color: red;
+    border-radius: 5px 0px 0px 5px; 
+}
+
+.bar-5 h5{
+    text-align: right;
+    width: 70%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    background-color: red;
+    border-radius: 5px 0px 0px 5px; 
+}
+
+.bar-6 h5{
+    text-align: right;
+    width: 10%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    background-color: red;
+    border-radius: 5px 0px 0px 5px; 
+}
+
+.bar-7 h5{
+    text-align: right;
+    width: 50%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    background-color: red;
+    border-radius: 5px 0px 0px 5px; 
+}
+
+.contacts {
+    clear:left; 
+    padding: 0px 0px 0px 100px; 
+}
+
+.fa {
+    position:relative; 
+    left: -5px; 
+    padding: 20px;
+    font-weight:bold;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px 5px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background-color:#007bb5;
+    color: white; 
+}
+
+.fa-envelope {
+    background-color:#0072C6;
+    color: white; 
+}
+
+.fa-github {
+    background-color:#6f42c1;
+    color: white; 
+}
+
+
